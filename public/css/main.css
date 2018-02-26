@@ -1,5 +1,7 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
 /*
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
@@ -50,7 +52,20 @@ body {
   html, body {
     min-width: 320px; } }
 body {
-  background: #1b1f22; }
+  background: #1b1f22; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-blend-mode: darken;
+  -webkit-transition: background 1.4s;
+  -moz-transition: background 1.4s;
+  -ms-transition: background 1.4s;
+  -o-transition: background 1.4s;
+  transition: background 1.4s;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+}
   body.is-loading *, body.is-loading *:before, body.is-loading *:after, body.is-switching *, body.is-switching *:before, body.is-switching *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -67,7 +82,7 @@ body {
 
 /* Type */
 html {
-  font-size: 16pt; }
+  font-size: 14pt; }
   @media screen and (max-width: 1680px) {
     html {
       font-size: 12pt; } }
@@ -77,10 +92,36 @@ html {
   @media screen and (max-width: 360px) {
     html {
       font-size: 10pt; } }
+iframe {
+  max-width: 100%;
+}
+
+summary::-webkit-details-marker {
+  display: none
+}
+
+summary:after {
+  content: "more"; 
+  color: #fff; 
+  float: right; 
+  font-variant: small-caps;
+  margin: 0; 
+  padding: 0; 
+  text-align: left; 
+}
+
+details[open] summary:after {
+  content: "less";
+}
+
+details p, li {
+  font-weight: 100;
+  overflow-wrap: break-word;
+}
 
 body, input, select, textarea {
   color: #ffffff;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.65; }
@@ -104,12 +145,12 @@ em, i {
   font-style: italic; }
 
 p {
-  margin: 0 0 2rem 0; }
+  margin: 0 0 0 0; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
   font-weight: 600;
-  line-height: 1.5;
+  line-height: 1.0;
   margin: 0 0 1rem 0;
   text-transform: uppercase;
   letter-spacing: 0.2rem; }
@@ -127,13 +168,25 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2.25rem;
-  line-height: 1.3;
-  letter-spacing: 0.5rem; }
+  line-height: 1.1;
+  font-family: "Luckiest Guy";
+  text-transform: lowercase;
+  letter-spacing: 0.05rem;
+}
+
+.subTitle {
+  font-size: 1.25rem;
+  vertical-align: middle;
+  font-family: "Karla";
+  text-transform: lowercase;
+  text-weight: 100;
+  letter-spacing: 0.5rem;
+}
 
 h2 {
   font-size: 1.5rem;
-  line-height: 1.4;
-  letter-spacing: 0.5rem; }
+  line-height: 1.1;
+  letter-spacing: 0.35rem; }
 
 h3 {
   font-size: 1rem; }
@@ -418,7 +471,7 @@ input[type="radio"] + label:before {
 .box {
   border-radius: 4px;
   border: solid 1px #ffffff;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   padding: 1.5em; }
   .box > :last-child,
   .box > :last-child > :last-child,
@@ -526,10 +579,10 @@ ul {
   ul.icons {
     cursor: default;
     list-style: none;
-    padding-left: 0; }
+    padding-right: 1em; }
     ul.icons li {
       display: inline-block;
-      padding: 0 0.75em 0 0; }
+      padding: 0.75em 0.75em 0.75em 0; }
       ul.icons li:last-child {
         padding-right: 0; }
       ul.icons li a {
@@ -763,10 +816,10 @@ button {
     width: 100%;
     height: 100%; }
   #bg:before {
-    -moz-transition: background-color 2.5s ease-in-out;
-    -webkit-transition: background-color 2.5s ease-in-out;
-    -ms-transition: background-color 2.5s ease-in-out;
-    transition: background-color 2.5s ease-in-out;
+    -moz-transition: background-color 1.5s ease-in-out;
+    -webkit-transition: background-color 1.5s ease-in-out;
+    -ms-transition: background-color 1.5s ease-in-out;
+    transition: background-color 1.5s ease-in-out;
     -moz-transition-delay: 0.75s;
     -webkit-transition-delay: 0.75s;
     -ms-transition-delay: 0.75s;
@@ -822,7 +875,7 @@ button {
   position: relative;
   min-height: 100vh;
   width: 100%;
-  padding: 4rem 2rem;
+  padding: 1rem 1rem;
   z-index: 3; }
   #wrapper:before {
     content: '';
@@ -867,15 +920,15 @@ button {
     -ms-transition: opacity 0.325s ease-in-out;
     transition: opacity 0.325s ease-in-out;
     position: relative;
-    margin-top: 3.5rem; }
+    margin-top: 2.5rem; }
     #header > *:before {
       content: '';
       display: block;
       position: absolute;
-      top: calc(-3.5rem - 1px);
+      top: calc(-2.5rem - 1px);
       left: calc(50% - 1px);
       width: 1px;
-      height: calc(3.5rem + 1px);
+      height: calc(2.5rem + 1px);
       background: #ffffff; }
   #header > :first-child {
     margin-top: 0; }
@@ -904,7 +957,7 @@ button {
       -webkit-transition-delay: 0.25s;
       -ms-transition-delay: 0.25s;
       transition-delay: 0.25s;
-      padding: 3rem 2rem;
+      padding: 2.5rem 2.5rem;
       max-height: 40rem;
       overflow: hidden; }
       #header .content .inner > :last-child {
@@ -931,12 +984,12 @@ button {
         border-left: 0; }
       #header nav ul li a {
         display: block;
-        min-width: 7.5rem;
-        height: 2.75rem;
-        line-height: 2.75rem;
-        padding: 0 1.25rem 0 1.45rem;
+        min-width: 6.0rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+        padding: 0 0.3rem 0 0.3rem;
         text-transform: uppercase;
-        letter-spacing: 0.2rem;
+        letter-spacing: 0.15rem;
         font-size: 0.8rem;
         border-bottom: 0; }
         #header nav ul li a:hover {
@@ -1058,7 +1111,7 @@ button {
     -webkit-transition: opacity 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out;
     -ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
     transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
-    padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem ;
     position: relative;
     width: 40rem;
     max-width: 100%;

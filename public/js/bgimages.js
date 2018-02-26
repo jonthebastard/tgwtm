@@ -1,16 +1,7 @@
-String.prototype.hashCode = function(){
-    // djb2 hash algorithm
-    var hash = 5381;
-    for (i = 0; i < this.length; i++) {
-        char = this.charCodeAt(i);
-        hash = ((hash << 5) + hash) + char; /* hash * 33 + c */
-    }
-    return hash >>> 0;
-};
-
 var getBackgroundImages = function() {
+    var backgrounds = document.getElementsByTagName("body");
     var images = [];
-    var imgString = document.getElementById("hero").getAttribute("data-backgrounds");
+    var imgString = backgrounds[0].getAttribute("data-backgrounds");
     if (imgString) {
         images = imgString.split(/[\s,]+/).filter(Boolean);
     }
@@ -36,10 +27,9 @@ var rotateBackground = function(count) {
         count = (count+1) % images.length;
         // console.log("rotating background to "+count);
 
-        document.getElementById("hero").style.background = 'url("' + images[count] +'")';
-        document.getElementById("hero").style.backgroundSize = "cover";
-        document.getElementById("hero").style.backgroundPosition = "center";
-        document.getElementById("hero").style.backgroundAttachment = "fixed";
+        document.body.style.background = 'url("' + images[count] +'")';
+        document.body.style.backgroundSize = "cover";
+        document.body.style.backgroundPosition = "center";
         if (images.length > 1) {
             setTimeout(rotateBackground.bind(null, count), 5000);
         }

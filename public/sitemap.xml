@@ -3,7 +3,15 @@
 
   
   <url>
-    <loc>//#intro</loc>
+    <loc>//#look</loc>
+  </url>
+  
+  <url>
+    <loc>//#read</loc>
+  </url>
+  
+  <url>
+    <loc>//#watch</loc>
   </url>
   
   <url>
