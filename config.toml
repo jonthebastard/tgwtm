@@ -1,0 +1,54 @@
+baseurl = "/"
+title = "THAT GUY WITH THE MOHAWK"
+theme = "dimension"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+disableKinds=["RSS"]
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+  description = '<h2>jonathan pirro</h2>event photographer, music reviewer, speaker & mc'
+  site_title = "that guy with the mohawk | work by j. pirro"
+  logoimage = "images/tlg-logo.png"
+  copyright = "2018 J. Pirro"
+  BackgroundImages = [
+    "images/bg/IMG_1600.jpg",
+    "images/bg/IMG_4672.jpg",
+    "images/bg/IMG_5335.jpg",
+    "images/bg/IMG_6929.jpg"
+  ]
+  BackgroundStyle = "#000000;"
+  OpenLinksInNewWindow = true
+
+[[params.social]]
+  medium = "twitter"
+  icon = "twitter"
+  link = "https://twitter.com/jonthebastard"
+
+[[params.social]]
+  medium = "facebook"
+  icon = "facebook"
+  link = "https://facebook.com/jonmpirro"
+
+[[params.social]]
+  medium = "linkedin"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/jmpirro"
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "https://github.com/jonthebastard"
+
+[[params.social]]
+  medium = "vimeo"
+  icon = "vimeo"
+  link = "https://vimeo.com/obstacle"
+
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1

@@ -1,0 +1,5 @@
+<ul class="icons">
+{{ range .Site.Params.about }}
+	<li><a href="{{ .link | safeURL }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
+{{ end }}
+</ul>
