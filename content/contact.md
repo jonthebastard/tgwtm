@@ -1,6 +1,6 @@
 +++
 title = "contact"
-SubTitle = "send an email"
+SubTitle = "let's talk"
 weight = 60
 draft = false
 +++

@@ -1,6 +1,6 @@
 +++
 title = "about"
-SubTitle = "that loud guy"
+SubTitle = "profile"
 weight = 50
 draft = false
 +++

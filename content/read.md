@@ -1,6 +1,6 @@
 +++
 title = "Read"
-SubTitle = "written works"
+SubTitle = "written work"
 weight = 20
 draft = false
 +++

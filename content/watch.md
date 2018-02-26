@@ -1,11 +1,11 @@
 +++
 title = "watch"
-SubTitle = "onstage performance"
+SubTitle = "onstage"
 weight = 30
 draft = false
 +++
 
-I enjoy being on the stage just as much as I enjoy photographing it.<br />
+I enjoy being on a stage just as much as I enjoy photographing one.<br />
 <br /><br />
 ### [Odd Salon](https://www.oddsalon.com/)
 <details><summary>San Francisco-based fun-lectures-with-cocktails speaking series.</summary>

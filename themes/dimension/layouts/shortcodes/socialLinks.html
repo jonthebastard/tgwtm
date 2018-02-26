@@ -1,4 +1,4 @@
-<ul class="icons" align="right">connect with me:&nbsp;&nbsp;
+<ul class="icons" align="right">
 {{ range .Site.Params.social }}
 	<li><a href="{{ .link | safeURL }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
 {{ end }}

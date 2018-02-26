@@ -259,7 +259,7 @@ hr {
 
 /* Form */
 form {
-  margin: 0 0 2.5rem 0; }
+  margin: 0 0 0 0; }
   form .field {
     margin: 0 0 1.5rem 0; }
     form .field.half {
@@ -556,14 +556,14 @@ input[type="radio"] + label:before {
 /* List */
 ol {
   list-style: decimal;
-  margin: 0 0 2rem 0;
+  margin: 0 0 0 0;
   padding-left: 1.25em; }
   ol li {
     padding-left: 0.25em; }
 
 ul {
   list-style: disc;
-  margin: 0 0 2rem 0;
+  margin: 0 0 0 0;
   padding-left: 1em; }
   ul li {
     padding-left: 0.5em; }
@@ -638,7 +638,7 @@ ul {
           padding: 0 0 0 0.5rem; }
     @media screen and (max-width: 480px) {
       ul.actions {
-        margin: 0 0 2rem 0; }
+        margin: 0 0 0 0; }
         ul.actions li {
           padding: 1rem 0 0 0;
           display: block;
