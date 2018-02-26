@@ -32,7 +32,7 @@ var rotateBackground = function(count) {
         document.body.style.backgroundSize = "cover";
         document.body.style.backgroundPosition = "center";
         if (images.length > 1) {
-            setTimeout(rotateBackground.bind(null, count), 5000);
+            setTimeout(rotateBackground.bind(null, count), 7500);
         }
     }
 };
