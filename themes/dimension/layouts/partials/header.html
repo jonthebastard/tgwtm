@@ -16,7 +16,14 @@
 	</head>
 	<!-- Scripts -->
 			<script src="/js/jquery.min.js"></script>
-	<body{{ if .Site.Params.BackgroundStyle }} style='background: {{ .Site.Params.BackgroundStyle | safeCSS }};'{{ end }}
+	<body{{ if .Site.Params.BackgroundStyle }} id="page" style='background: {{ .Site.Params.BackgroundStyle | safeCSS }};'{{ end }}
 {{- if .Site.Params.BackgroundImages }} data-backgrounds='{{ range .Site.Params.BackgroundImages }}{{ . }},{{ end }}'{{- end }}>
-			<script src="/js/bgimages.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.4.2/lazyload.min.js"></script>
+			<ul class="cb-slideshow">
+            <li><span></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+        </ul>
+			<script type="text/javascript" src="/js/modernizr.js"></script>
