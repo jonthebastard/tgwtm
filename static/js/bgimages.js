@@ -36,8 +36,5 @@ var rotateBackground = function(count) {
         }
     }
 };
-console.log("before preload");
 preloadBackgrounds();
-console.log("after preload; before rotate");
 rotateBackground();
-console.log("after rotate");

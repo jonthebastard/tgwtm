@@ -30,29 +30,7 @@ disableKinds=["RSS"]
     "images/bg/13.jpg",
     "images/bg/14.jpg",
     "images/bg/15.jpg",
-    "images/bg/16.jpg",
-    "images/bg/17.jpg",
-    "images/bg/18.jpg",
-    "images/bg/19.jpg",
-    "images/bg/20.jpg",
-    "images/bg/21.jpg",
-    "images/bg/22.jpg",
-    "images/bg/23.jpg",
-    "images/bg/24.jpg",
-    "images/bg/25.jpg",
-    "images/bg/26.jpg",
-    "images/bg/27.jpg",
-    "images/bg/28.jpg",
-    "images/bg/29.jpg",
-    "images/bg/30.jpg",
-    "images/bg/31.jpg",
-    "images/bg/32.jpg",
-    "images/bg/33.jpg",
-    "images/bg/34.jpg",
-    "images/bg/35.jpg",
-    "images/bg/36.jpg",
-    "images/bg/37.jpg",
-    "images/bg/38.jpg"
+    "images/bg/16.jpg"
   ]
   BackgroundStyle = "#000000;"
   OpenLinksInNewWindow = true
