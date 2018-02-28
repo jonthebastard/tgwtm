@@ -14,6 +14,7 @@ var preloadBackgrounds = function() {
     {
         // caches images, avoiding white flash between background replacements
         new Image().src = images[i];
+        console.log("hi");
     }
 };
 
