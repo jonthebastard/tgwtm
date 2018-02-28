@@ -32,7 +32,7 @@ disableKinds=["RSS"]
     "images/bg/15.jpg",
     "images/bg/16.jpg"
   ]
-  BackgroundStyle = "#000000;"
+  BackgroundStyle = "#000000"
   OpenLinksInNewWindow = true
 
 [[params.social]]

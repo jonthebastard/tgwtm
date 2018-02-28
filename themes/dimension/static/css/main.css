@@ -1201,3 +1201,7 @@ button {
     opacity: 0; }
 
 /*# sourceMappingURL=main.css.map */
+
+.hidden {
+    display: none;
+}
