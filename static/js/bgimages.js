@@ -14,7 +14,6 @@ var preloadBackgrounds = function() {
     {
         // caches images, avoiding white flash between background replacements
         new Image().src = images[i];
-        console.log("hi");
     }
 };
 
@@ -37,5 +36,8 @@ var rotateBackground = function(count) {
         }
     }
 };
+console.log("before preload");
 preloadBackgrounds();
+console.log("after preload; before rotate");
 rotateBackground();
+console.log("after rotate");
