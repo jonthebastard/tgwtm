@@ -25,7 +25,7 @@ var rotateBackground = function(count) {
     var images = getBackgroundImages();
     if (images.length > 0) {
         //count = (count+1) % images.length;
-        count = Math.floor(Math.random() * images.length + 1);
+        count = Math.floor(Math.random() * images.length);
         // console.log("rotating background to "+count);
 
         document.body.style.background = 'url("' + images[count] +'")';
