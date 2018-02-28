@@ -52,18 +52,20 @@ body {
   html, body {
     min-width: 320px; } }
 body {
-  background: #1b1f22; 
+  background: #000000; 
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
   background-blend-mode: darken;
-  -webkit-transition: background 1.4s;
-  -moz-transition: background 1.4s;
-  -ms-transition: background 1.4s;
-  -o-transition: background 1.4s;
-  transition: background 1.4s;
+  -webkit-transition: background 1.4s linear;
+  -moz-transition: background 1.4s linear;
+  -ms-transition: background 1.4s linear;
+  -o-transition: background 1.4s linear;
+  transition: background 1.4s linear;
     background-position-x: center;
     background-position-y: center;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
     background-attachment: fixed;
 }
   body.is-loading *, body.is-loading *:before, body.is-loading *:after, body.is-switching *, body.is-switching *:before, body.is-switching *:after {
