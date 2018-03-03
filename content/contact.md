@@ -5,7 +5,7 @@ weight = 60
 draft = false
 +++
 
-<form id="thatguywiththemohawk.com" method="post" data-netlify="true" action="#contactformsent">
+<form id="thatguywiththemohawk.com" name="thatguywiththemohawk.com" method="post" data-netlify="true" action="#contactformsent">
 	<div class="field half first">
 		<input type="text" name="name" id="name" placeholder="Name"/>
 	</div>
