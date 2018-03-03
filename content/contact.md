@@ -5,7 +5,7 @@ weight = 60
 draft = false
 +++
 
-<form id="contactform" method="post" data-netlify="true" action="#contactformsent">
+<form id="thatguywiththemohawk.com" method="post" data-netlify="true" action="#contactformsent">
 	<div class="field half first">
 		<input type="text" name="name" id="name" placeholder="Name"/>
 	</div>
@@ -19,9 +19,6 @@ draft = false
 		<li><input type="submit" value="Send message" class="special" /></li>
 		<li><input type="reset" value="Reset" /></li>
 	</ul>
-	<input type="hidden" name="_next" value="?sent#formspree" />
-	<input type="hidden" name="_subject" value="Subject for your mail like new message" />
-	<input type="text" name="_gotcha" style="display:none" />
 </form>
 <span id="contactformsent">Thank you for your message</span>
 
@@ -29,7 +26,7 @@ draft = false
 $(document).ready(function($) { 
     $(function(){
         if (window.location.search == "?sent") {
-        	$('#contactform').hide();
+        	$('#thatguywiththemohawk.com').hide();
         	$('#contactformsent').show();
         } else {
         	$('#contactformsent').hide();
