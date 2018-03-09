@@ -14,24 +14,6 @@ disableKinds=["RSS"]
   site_title = "that guy with the mohawk | work by j. pirro"
   logoimage = "images/tlg-logo.png"
   copyright = "2018 J. Pirro"
-  BackgroundImages = [
-    "images/bg/01.jpg",
-    "images/bg/02.jpg",
-    "images/bg/03.jpg",
-    "images/bg/04.jpg",
-    "images/bg/05.jpg",
-    "images/bg/06.jpg",
-    "images/bg/07.jpg",
-    "images/bg/08.jpg",
-    "images/bg/09.jpg",
-    "images/bg/10.jpg",
-    "images/bg/11.jpg",
-    "images/bg/12.jpg",
-    "images/bg/13.jpg",
-    "images/bg/14.jpg",
-    "images/bg/15.jpg",
-    "images/bg/16.jpg"
-  ]
   BackgroundStyle = "#000000"
   OpenLinksInNewWindow = true
 

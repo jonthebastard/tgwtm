@@ -11,11 +11,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="stylesheet" href="/css/project.css" />
+		<link rel="stylesheet" type="text/css" href="/js/slick/slick.css"/>
+  	<link rel="stylesheet" type="text/css" href="/js/slick/slick-theme.css"/>
 		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="/css/noscript.css" /></noscript>
 	</head>
 	<!-- Scripts -->
-			<script src="/js/jquery.min.js"></script>
-	<body{{ if .Site.Params.BackgroundStyle }} style='background: {{ .Site.Params.BackgroundStyle | safeCSS }};'{{ end }}
-{{- if .Site.Params.BackgroundImages }} data-backgrounds='{{ range .Site.Params.BackgroundImages }}{{ . }},{{ end }}'{{- end }}>
-			<script src="/js/bgimages.js"></script>
+			<!-- <script src="/js/jquery.min.js"></script> -->
+	<body{{ if .Site.Params.BackgroundStyle }} style='background: {{ .Site.Params.BackgroundStyle | safeCSS }};'{{ end }}>
+			<!-- <script src="/js/bgimages.js"></script> -->
