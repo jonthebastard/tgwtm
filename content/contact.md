@@ -23,7 +23,7 @@ draft = false
 <span id="contactformsent">Thank you for your message</span>
 
 <script>
-$(document).ready(function($) { 
+$(document).ready(function() { 
     $(function(){
         if (window.location.search == "?sent") {
         	$('#thatguywiththemohawk.com').hide();
