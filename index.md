@@ -8,8 +8,38 @@ layout: default
       <div class="aurel_packery_inner aurel_isotope_trigger is_packery hover_type_plus" data-pad="30" data-perload="4">
         <!-- Item 1 -->
         <div class="packery-item packery-item1 element anim_el anim_el2 load_anim packery_b2p" data-count="1">
-          <div class="packery-item-inner aurel_js_bg_image" data-src="../img/clipart/packery_album/thumb/thumb-1.jpg">
-            <a class="aurel_pswp_slide aurel_dp aurel_no_select" href="../img/clipart/packery_album/img-1.jpg" data-size="1200x1200" data-count="0">
+          <div class="packery-item-inner aurel_js_bg_image" data-src="../img/concerts/01.jpg">
+            <a class="aurel_pswp_slide aurel_dp aurel_no_select" href="#" data-size="1200x1200" data-count="0">
+              <div class="packery-item-overlay aurel_js_bg_color" data-bgcolor="rgba(17,17,17,0.3)"></div>
+            </a>
+            <div class="aurel-img-preloader"></div>
+          </div>
+          <div class="packery-item-inner aurel_js_bg_image" data-src="../img/concerts/02.jpg">
+            <a class="aurel_pswp_slide aurel_dp aurel_no_select" href="#" data-size="1200x1200" data-count="0">
+              <div class="packery-item-overlay aurel_js_bg_color" data-bgcolor="rgba(17,17,17,0.3)"></div>
+            </a>
+            <div class="aurel-img-preloader"></div>
+          </div>
+          <div class="packery-item-inner aurel_js_bg_image" data-src="../img/concerts/03.jpg">
+            <a class="aurel_pswp_slide aurel_dp aurel_no_select" href="#" data-size="1200x1200" data-count="0">
+              <div class="packery-item-overlay aurel_js_bg_color" data-bgcolor="rgba(17,17,17,0.3)"></div>
+            </a>
+            <div class="aurel-img-preloader"></div>
+          </div>
+          <div class="packery-item-inner aurel_js_bg_image" data-src="../img/concerts/04.jpg">
+            <a class="aurel_pswp_slide aurel_dp aurel_no_select" href="#" data-size="1200x1200" data-count="0">
+              <div class="packery-item-overlay aurel_js_bg_color" data-bgcolor="rgba(17,17,17,0.3)"></div>
+            </a>
+            <div class="aurel-img-preloader"></div>
+          </div>
+          <div class="packery-item-inner aurel_js_bg_image" data-src="../img/concerts/05.jpg">
+            <a class="aurel_pswp_slide aurel_dp aurel_no_select" href="#" data-size="1200x1200" data-count="0">
+              <div class="packery-item-overlay aurel_js_bg_color" data-bgcolor="rgba(17,17,17,0.3)"></div>
+            </a>
+            <div class="aurel-img-preloader"></div>
+          </div>
+          <div class="packery-item-inner aurel_js_bg_image" data-src="../img/concerts/06.jpg">
+            <a class="aurel_pswp_slide aurel_dp aurel_no_select" href="#" data-size="1200x1200" data-count="0">
               <div class="packery-item-overlay aurel_js_bg_color" data-bgcolor="rgba(17,17,17,0.3)"></div>
             </a>
             <div class="aurel-img-preloader"></div>
