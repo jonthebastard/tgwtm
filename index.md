@@ -2,112 +2,76 @@
 title: THAT GUY WITH THE MOHAWK | photography by j.pirro
 layout: default
 ---
-
-  <div class="aurel_single_gallery_wrapper aurel_single_gallery_grid">
-    <div class="aurel_packery_wrapper aurel_photoswipe_wrapper aurel_packery_6803" data-uniqid="6803" data-perload="4">
-      <div class="aurel_packery_inner aurel_isotope_trigger is_packery hover_type_plus" data-pad="30" data-perload="4">
-        <!-- Item 1 -->
-        <div class="packery-item packery-item1 element anim_el anim_el2 load_anim packery_b2p" data-count="1">
-          <div class="packery-item-inner aurel_js_bg_image" data-src="../img/concerts/01.jpg">
-            <a class="aurel_pswp_slide aurel_dp aurel_no_select" href="#" data-size="1200x1200" data-count="0">
-              <div class="packery-item-overlay aurel_js_bg_color" data-bgcolor="rgba(17,17,17,0.3)"></div>
-            </a>
-            <div class="aurel-img-preloader"></div>
+<div class="aurel_main_wrapper aurel_top_padding_no aurel_bottom_padding_no">
+  <div class="aurel_container">
+    <div class="aurel_content_wrapper row aurel_no_sidebar">
+      <div class="aurel_content col col-12">
+        <div class="aurel_tiny">
+              <div class="row aurel_js_min_height aurel_bg_center_center aurel_bg_size_cover aurel_pf_fullwidth aurel_mb_40" data-src="img/concerts/01.jpg" data-min-height="100">
           </div>
-          <div class="packery-item-inner aurel_js_bg_image" data-src="../img/concerts/02.jpg">
-            <a class="aurel_pswp_slide aurel_dp aurel_no_select" href="#" data-size="1200x1200" data-count="0">
-              <div class="packery-item-overlay aurel_js_bg_color" data-bgcolor="rgba(17,17,17,0.3)"></div>
-            </a>
-            <div class="aurel-img-preloader"></div>
-          </div>
-          <div class="packery-item-inner aurel_js_bg_image" data-src="../img/concerts/03.jpg">
-            <a class="aurel_pswp_slide aurel_dp aurel_no_select" href="#" data-size="1200x1200" data-count="0">
-              <div class="packery-item-overlay aurel_js_bg_color" data-bgcolor="rgba(17,17,17,0.3)"></div>
-            </a>
-            <div class="aurel-img-preloader"></div>
-          </div>
-          <div class="packery-item-inner aurel_js_bg_image" data-src="../img/concerts/04.jpg">
-            <a class="aurel_pswp_slide aurel_dp aurel_no_select" href="#" data-size="1200x1200" data-count="0">
-              <div class="packery-item-overlay aurel_js_bg_color" data-bgcolor="rgba(17,17,17,0.3)"></div>
-            </a>
-            <div class="aurel-img-preloader"></div>
-          </div>
-          <div class="packery-item-inner aurel_js_bg_image" data-src="../img/concerts/05.jpg">
-            <a class="aurel_pswp_slide aurel_dp aurel_no_select" href="#" data-size="1200x1200" data-count="0">
-              <div class="packery-item-overlay aurel_js_bg_color" data-bgcolor="rgba(17,17,17,0.3)"></div>
-            </a>
-            <div class="aurel-img-preloader"></div>
-          </div>
-          <div class="packery-item-inner aurel_js_bg_image" data-src="../img/concerts/06.jpg">
-            <a class="aurel_pswp_slide aurel_dp aurel_no_select" href="#" data-size="1200x1200" data-count="0">
-              <div class="packery-item-overlay aurel_js_bg_color" data-bgcolor="rgba(17,17,17,0.3)"></div>
-            </a>
-            <div class="aurel-img-preloader"></div>
-          </div>
-        </div>
-        <!-- Item 2 -->
-        <div class="packery-item packery-item2 element anim_el anim_el2 load_anim packery_b2p" data-count="2">
-          <div class="packery-item-inner aurel_js_bg_image" data-src="../img/clipart/packery_album/thumb/thumb-2.jpg">
-            <a class="aurel_pswp_slide aurel_dp aurel_no_select" href="../img/clipart/packery_album/img-2.jpg" data-size="800x1200" data-count="1">
-              <div class="packery-item-overlay aurel_js_bg_color" data-bgcolor="rgba(17,17,17,0.3)"></div>
-            </a>
-            <div class="aurel-img-preloader"></div>
-          </div>
-        </div>
-        <!-- Item 3 -->
-        <div class="packery-item packery-item3 element anim_el anim_el2 load_anim packery_b2p" data-count="3">
-          <div class="packery-item-inner aurel_js_bg_image" data-src="../img/clipart/packery_album/thumb/thumb-3.jpg">
-            <a class="aurel_pswp_slide aurel_dp aurel_no_select" href="../img/clipart/packery_album/img-3.jpg" data-size="1920x1280" data-count="2">
-              <div class="packery-item-overlay aurel_js_bg_color" data-bgcolor="rgba(17,17,17,0.3)"></div>
-            </a>
-            <div class="aurel-img-preloader"></div>
-          </div>
-        </div>
-        <!-- Item 4 -->
-        <div class="packery-item packery-item4 element anim_el anim_el2 load_anim packery_b2p" data-count="4">
-          <div class="packery-item-inner aurel_js_bg_image" data-src="../img/clipart/packery_album/thumb/thumb-4.jpg">
-            <a class="aurel_pswp_slide aurel_dp aurel_no_select" href="../img/clipart/packery_album/img-4.jpg" data-size="1920x1280" data-count="3">
-              <div class="packery-item-overlay aurel_js_bg_color" data-bgcolor="rgba(17,17,17,0.3)"></div>
-            </a>
-            <div class="aurel-img-preloader"></div>
-          </div>
-        </div>
-        <!-- Item 5 -->
-        <div class="packery-item packery-item5 element anim_el anim_el2 load_anim packery_b2p" data-count="5">
-          <div class="packery-item-inner aurel_js_bg_image" data-src="../img/clipart/packery_album/thumb/thumb-5.jpg">
-            <a class="aurel_pswp_slide aurel_dp aurel_no_select" href="../img/clipart/packery_album/img-5.jpg" data-size="1920x1280" data-count="4">
-              <div class="packery-item-overlay aurel_js_bg_color" data-bgcolor="rgba(17,17,17,0.3)"></div>
-            </a>
-            <div class="aurel-img-preloader"></div>
-          </div>
-        </div>
-        <!-- Item 6 -->
-        <div class="packery-item packery-item6 element anim_el anim_el2 load_anim packery_b2p" data-count="6">
-          <div class="packery-item-inner aurel_js_bg_image" data-src="../img/clipart/packery_album/thumb/thumb-6.jpg">
-            <a class="aurel_pswp_slide aurel_dp aurel_no_select" href="../img/clipart/packery_album/img-6.jpg" data-size="1920x1280" data-count="5">
-              <div class="packery-item-overlay aurel_js_bg_color" data-bgcolor="rgba(17,17,17,0.3)"></div>
-            </a>
-            <div class="aurel-img-preloader"></div>
-          </div>
-        </div>
-        <!-- Item 7 -->
-        <div class="packery-item packery-item7 element anim_el anim_el2 load_anim packery_b2p" data-count="7">
-          <div class="packery-item-inner aurel_js_bg_image" data-src="../img/clipart/packery_album/thumb/thumb-7.jpg">
-            <a class="aurel_pswp_slide aurel_dp aurel_no_select" href="../img/clipart/packery_album/img-7.jpg" data-size="1920x1280" data-count="6">
-              <div class="packery-item-overlay aurel_js_bg_color" data-bgcolor="rgba(17,17,17,0.3)"></div>
-            </a>
-            <div class="aurel-img-preloader"></div>
-          </div>
-        </div>
-        <!-- Item 8 -->
-        <div class="packery-item packery-item8 element anim_el anim_el2 load_anim packery_b2p" data-count="8">
-          <div class="packery-item-inner aurel_js_bg_image" data-src="../img/clipart/packery_album/thumb/thumb-8.jpg">
-            <a class="aurel_pswp_slide aurel_dp aurel_no_select" href="../img/clipart/packery_album/img-8.jpg" data-size="1920x1280" data-count="7">
-              <div class="packery-item-overlay aurel_js_bg_color" data-bgcolor="rgba(17,17,17,0.3)"></div>
-            </a>
-            <div class="aurel-img-preloader"></div>
+          <div class="row aurel_pf_fullwidth">
+            <div class="col col-12 aurel_pl_30 aurel_pr_30">
+              <div class="aurel_widget_pm_albums_packery">
+                <div class="aurel_widget_container">
+                  <div class="aurel_front_end_display">
+                    <div class="aurel_albums_packery_wrapper aurel_packery_wrapper aurel_packery_2218" data-uniqid="2218">
+                      <div class="aurel_packery_inner aurel_albums_packery aurel_isotope_trigger is_packery albums_titles_show" data-setpad="30" data-perload="4">
+                        <!-- Item 1 -->
+                            <div class="aurel_albums_packery_item packery-item element packery-item1 anim_el anim_el2 load_anim packery_b2p aurel_isotop_el_loading natfirst_load" data-count="1">
+                          <div class="aurel_inner_cont packery-item-inner" data-src="img/clipart/albums_packery/thumb-2.jpg">
+                            <a href="album_grid.html" class="aurel_dp aurel_no_select">
+                              <div class='slider'>
+                                {% for i in (1..10) %}
+                                  {% capture divclass %}slide-{{ i | prepend: '00' | slice: -2, 2 }}{% endcapture %}
+                                  <div class="{{ divclass }}"></div>
+                                {% endfor %}
+                              </div>
+                              <div class="aurel_albums_grid_content">
+                                <h4 class="aurel_albums_title">Concerts</h4>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <!-- Item 2 -->
+                            <div class="aurel_albums_packery_item packery-item element packery-item2 anim_el anim_el2 load_anim packery_b2p aurel_isotop_el_loadportraits first_load" data-count="2">
+                          <div class="aurel_inner_cont packery-item-inner aurel_js_bg_image" data-src="img/clipart/albums_packery/thumb-2.jpg">
+                            <a href="album_masonry.html" class="aurel_dp aurel_no_select">
+                              <div class="aurel_albums_grid_content">
+                                <h4 class="aurel_albums_title">Events</h4>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <!-- Item 3 -->
+                            <div class="aurel_albums_packery_item packery-item element packery-item3 anim_el anim_el2 load_anim packery_b2p aurel_isotop_el_loading fashfirst_load" data-count="3">
+                          <div class="aurel_inner_cont packery-item-inner aurel_js_bg_image" data-src="img/clipart/albums_packery/thumb-3.jpg">
+                            <a href="album_packery.html" class="aurel_dp aurel_no_select">
+                              <div class="aurel_albums_grid_content">
+                                <h4 class="aurel_albums_title">Experiences</h4>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <!-- Item 4 -->
+                            <div class="aurel_albums_packery_item packery-item element packery-item4 anim_el anim_el2 load_anim packery_b2p aurel_isotop_el_loading stfirst_load" data-count="4">
+                          <div class="aurel_inner_cont packery-item-inner aurel_js_bg_image" data-src="img/clipart/albums_packery/thumb-4.jpg">
+                            <a href="album_kenburns.html" class="aurel_dp aurel_no_select">
+                              <div class="aurel_albums_grid_content">
+                                <h4 class="aurel_albums_title">Weddings</h4>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>

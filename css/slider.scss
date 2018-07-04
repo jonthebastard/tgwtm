@@ -1,0 +1,39 @@
+---
+---
+
+@function pow($b, $n) {
+  $f: $b; @while $n > 1 { $f: $f * $b; $n: $n - 1; } @return $f;
+}
+
+@function zerofill($i, $n) {
+  $f: pow(10, $n - 1); $out: null;
+  @while $f >= 1 {
+    $out: unquote("#{$out}#{floor($i / $f)}"); $i: $i - floor($i / $f) * $f; $f: $f / 10;
+  } @return $out;
+}
+
+
+.slider {
+  height: 100%;
+  margin: 0px auto;
+  position: relative;
+}
+
+@for $i from 1 through 10 {
+  $j: zerofill($i,1);
+  .slide-#{$j} {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../img/concerts/#{$j}.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade#{$j} 50s infinite;
+    -webkit-animation:fade#{$j} 50s infinite;
+  }
+  @keyframes fade#{$j} {
+    0% { opacity: if($i == 10,1,0) }
+    @for $k from 1 through 10 {
+      #{$k * 10%} { opacity: if($i == $k,1,0) }
+    }
+  }
+}
